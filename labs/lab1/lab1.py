@@ -38,7 +38,7 @@ def coffee():
 def kilometers_to_miles():
     numberofkilometerstraveled = eval(input('Enter the distance traveled in kilometers:'))
     miles = numberofkilometerstraveled/1.61
-    print (miles)
+    print ('Total miles =', miles)
 
 
 calc_rec_area()

@@ -35,16 +35,16 @@ def squares():
     instructions.draw(win)
 
     shape = Rectangle(Point(50, 50),Point(70,70))
-    shape.setOutline("red")
-    shape.setFill("red")
+    shape.setOutline("blue")
+    shape.setFill("blue")
     shape.draw(win)
 
     # allows the user to click multiple times to move the circle
     for i in range(num_clicks):
         user_click = win.getMouse()
         shape = Rectangle(Point(user_click.x- 10, user_click.y-10), Point(user_click.x + 10, user_click.y+10),)
-        shape.setOutline("red")
-        shape.setFill("red")
+        shape.setOutline("blue")
+        shape.setFill("blue")
         shape.draw(win)
 
     ins = Text(Point(250, 150), 'Click anywhere to close')
@@ -69,8 +69,6 @@ def rectangle():
     i = Point(250, 250)
     instructions = Text(i, "Click on two points")
     instructions.draw(win)
-
-    #message = Text(Point(200,200), "Click on Two points")
 
     p1 = win.getMouse()
     p1.draw(win)

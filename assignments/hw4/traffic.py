@@ -21,7 +21,7 @@ def main():
             average += traveled
         print("Road", str(i), "average vehicles per day:", round(average/days, 2))
     print("total number of vehicles traveled on all roads:", acc)
-    print('Average number of vehicles per road:', round(acc/roads, 2))
+    print('Average number of vehicles per road: ', round(acc/roads, 2))
 
 
 if __name__ == '__main__':

@@ -2,7 +2,7 @@
 Name: Caroline Perez
 sales_force.py
 
-Problem:
+Problem: sales force class
 
 Certification of Authenticity:
 I certify that this assignment is entirely my own work.

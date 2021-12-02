@@ -35,16 +35,16 @@ def squares():
     instructions.draw(win)
 
     shape = Rectangle(Point(50, 50),Point(70,70))
-    shape.setOutline("blue")
-    shape.setFill("blue")
+    shape.setOutline("pink")
+    shape.setFill("pink")
     shape.draw(win)
 
     # allows the user to click multiple times to move the circle
     for i in range(num_clicks):
         user_click = win.getMouse()
         shape = Rectangle(Point(user_click.x- 10, user_click.y-10), Point(user_click.x + 10, user_click.y+10),)
-        shape.setOutline("blue")
-        shape.setFill("blue")
+        shape.setOutline("orange")
+        shape.setFill("orange")
         shape.draw(win)
 
     ins = Text(Point(250, 150), 'Click anywhere to close')

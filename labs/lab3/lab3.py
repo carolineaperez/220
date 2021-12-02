@@ -35,10 +35,14 @@ def sequence():
     x = eval(input('what is the number of terms in a series:'))
     for i in range(1, x + 1):
         seq = 1 + (i//2) * 2
-        print(seq, end=' ')
-        print()
+        print(seq, end=" ")
+""" def sequence():
+    terms = eval(input("enter amount of terms:")
+    for i in range(terms):
+        adder = (i+1)% 2
+        print(i + adder, end="")
 
-
+"""
 def pi():
     n = eval(input(' Number of terms in a series:'))
     acc = 1
@@ -50,8 +54,8 @@ def pi():
     print(acc)
 
 
-average()
-tip_jar()
-newton()
+#average()
+#tip_jar()
+#newton()
 sequence()
-pi()
+#pi()
